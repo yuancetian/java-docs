@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
   <!-- gif动图 -->
   <link rel="stylesheet" href="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.css">
+  <!-- 目录跳转 -->
+  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
 </head>
 
 <body>
@@ -99,6 +101,12 @@
           label: "切记"
         }
       },
+      // 目录跳转
+      toc: {
+        scope: '.markdown-section',
+        headings: 'h1, h2, h3, h4, h5, h6',
+        title: 'Table of Contents',
+      },
       sidebarDisplayLevel: 2,
       // 页脚信息插件
       loadFooter: true,
@@ -127,6 +135,8 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <!-- gif动图 -->
   <script src="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.js"></script>
+  <!-- 目录跳转 -->
+  <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
 </body>
 
 </html>
