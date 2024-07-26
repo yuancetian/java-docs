@@ -10,9 +10,8 @@
 - No statically built HTML files
 - Multiple themes
 
-[Get Started](#docsify)
+[Get Started](quickstart.md)
 [GitHub](https://github.com/docsifyjs/docsify/)
-[GitHub1](https://github.com/docsifyjs/docsify/)
 
 <!-- ![color](#f0f0f0) -->
 <!-- ![](/_media/icon.svg) -->
